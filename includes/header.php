@@ -1,0 +1,1 @@
+<p><img src="images/homeimage2.jpg" id="sollogo" alt="Sol's Cookies and Cakes"/></p>
