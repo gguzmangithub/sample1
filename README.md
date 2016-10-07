@@ -20,6 +20,6 @@ This web page program was created using the following:
 <http://getbootstrap.com/>
 <http://jquery.com/download/>
 <http://fancyapps.com/fancybox/>
-<https://www.facebook.com/>
+<http://www.facebook.com/>
 <http://www.w3schools.com/w3css/w3css\_slideshow.asp>
 <http://cscis12.dce.harvard.edu/lecture\_notes/2015/20150623/slide52.html>
