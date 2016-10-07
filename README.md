@@ -11,7 +11,7 @@ This web page program was created using the following:
 - jQuery
 - JavaScript
 - Namecheap
-- DigitalOcean
+- Digital Ocean
 
 ## How to use this website
 <http://screencast.com/t/76HVq59G>
