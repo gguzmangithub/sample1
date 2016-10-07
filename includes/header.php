@@ -1,1 +1,2 @@
-<p><img src="images/homeimage2.jpg" id="sollogo" alt="Sol's Cookies and Cakes"/></p>
+<!-- Standard header -->
+<p class="solheaderlogo"><img src="images/homeimage2.jpg" alt="Sol's Cookies and Cakes"/></p>

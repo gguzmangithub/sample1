@@ -1,133 +1,117 @@
-
-
-#sollogo {
-    float:left;
-    margin-left: 42%;
-      }
-
-.navigation {
-    clear:both;
-    display:inline-block;
-    border-bottom:2px solid #52CEB7;
-    list-style-type: none;
-    padding-left: 25%; 
-    padding-right: 25%;
-    left: 10%; right:10%; 
-    margin-left: 8%;
-    line-height: 24px;
-    
+/* Bootstrap menu css */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+  font-size: 15px;
+  background-color: rgba(248, 248, 248, 1);
+  border-width: 0px;
+  border-radius: 1px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+  color: rgba(119, 119, 119, 1);
+  background-color: rgba(248, 248, 248, 0);
+  background: -webkit-linear-gradient(top, rgba(227, 223, 223, 1) 0%, rgba(248, 248, 248, 0) 100%);
+  background: linear-gradient(to bottom, rgba(227, 223, 223, 1) 0%, rgba(248, 248, 248, 0) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(167, 200, 219, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(85, 85, 85, 1);
+  background-color: rgba(167, 200, 219, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #a7c8db;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #a7c8db;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #a7c8db;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #f8f8f8;
 }
 
-.tabs {
-    left: 0; right:0;
-    margin: 0 10px; 
-    border: 1px solid #52CEB7;
-    background: #52CEB7;
-    display: inline-block;
-    border-top-style:groove;
+/* standard header logo  and paragraph
+(contact page) css formatting*/
+.solheaderlogo, .productcontact{
+  text-align: center;
+}
+/* Standard footer css formatting*/
+div > footer{
+  font-style: italic;
+  clear: both;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
-  .tabs a:link{
-    display: block;
-    width: 125px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
+/* css formatting for automatic slides
+on the home page */
+.w3-content.w3-section{
+  max-width: 500px;
+  clear: both;
 }
 
-.tabs a:visited {
-  display: block;
-    width: 125px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
- } 
-
-#footerLink{
-  background-color: white;
-   margin-left: 90%; 
-   }
- 
-
-  #footerdivindex{
-  position:absolute;
-  width: 90%;
-  bottom:0;
-  text-align:center;
-  font-style:italic;
-   }
-
-   #footerdivabout{
-   position:relative;
-   width: 90%;
-  bottom:0;
-    text-align:center;
-  font-style:italic;
-    }
-   
-.tabs a:hover {
-    background-color: #30AB94; 
+.mySlides.w3-animate-right{
+  width: 100%;
 }
 
-.tabs a:active {
-    color: #FFFFFF; 
+/* css formatting for about.php page */
+.solstory1{
+  clear: left;
 }
 
+.solstory2 {
+  clear: right;
+}
 
-p.solstory {
-  clear: right; 
+.solstory1, .solstory2{
   line-height: 1.5em;
   padding: 1em;
-  margin-left: 20em;
-  margin-right: 20em;
-  border:thin solid #52CEB7;   
   font-size: 20px;
- }
- 
- .solstory img{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.solstory1 > img{
+  float: left;
+  max-width: 200px;
+  padding-right: 15px;
+}
+
+.solstory2 > img{
   float: right;
-  border: thin dotted white; 
-  padding: 15px;
- }
- 
- br.clearme { 
-  clear: both; 
-  padding: 0; 
-  margin: 0; 
-  visibility: hidden; 
+  max-width: 250px;
+  padding: 0px;
+}
+
+
+br.clearme {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
   display: block;
 }
 
-.productcontact {
-  text-align:center; }
+/* css formatting for the contact.php page */
+.contactform {
+  margin-left: 10%;
+}
 
-  
-@media print {
-    p.solstory {
-        float:none;
-       margin-left: -0.1%;
-        font-family: georgia, serif;
-        width:80%;
-        font-size: 15px;
-        color: blue;
-     }
-   .navigation {
-       width:100%}      
-    }
-    
- fieldset {
-     border:1px solid #52CEB7;
-           }   
-  input {border:1px solid #52CEB7;}
-    
-#indexPage #indexLink {font-weight:bold; color:#ffe4b5; background-color: #30AB94;}
-#productsPage #productsLink {font-weight:bold; color:#ffe4b5; background-color: #30AB94;}
-#aboutPage #aboutLink {font-weight:bold; color:#ffe4b5; background-color: #30AB94;}
-
-
+/* css formatting to highlight an active navigation tab */
+#indexPage #indexLink, #productsPage #productsLink, #aboutPage #aboutLink, #contactPage #contactLink{
+  font-weight:bold; color:#2F4F4F; background-color: #a7c8db;
+}

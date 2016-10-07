@@ -1,29 +1,24 @@
+/* CSS used in the products.php page */
 
- 
 div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #52CEB7;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
 }
 
 div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
+  display: inline;
+  margin: 5px;
+  border: 1px solid #ffffff;
 }
 
 
 div.desc {
-    text-align: center;
-    font-weight: normal;
-    width: 130px;
-    margin: 5px;
+  text-align: center;
+  font-weight: normal;
+  width: 130px;
+  margin: 5px;
 }
-
-
-footer{
-clear:both; }
